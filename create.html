@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Quiz</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Create Quiz</h1>
+</header>
+
+<div class="container">
+
+    <input type="text" id="question" placeholder="Enter Question">
+
+    <input type="text" id="option1" placeholder="Option 1">
+
+    <input type="text" id="option2" placeholder="Option 2">
+
+    <input type="text" id="option3" placeholder="Option 3">
+
+    <input type="text" id="option4" placeholder="Option 4">
+
+    <select id="answer">
+        <option value="">Select Correct Answer</option>
+        <option value="0">Option 1</option>
+        <option value="1">Option 2</option>
+        <option value="2">Option 3</option>
+        <option value="3">Option 4</option>
+    </select>
+
+    <button onclick="saveQuestion()">Save Question</button>
+
+    <br><br>
+
+    <a href="quiz.html">
+        <button>Start Quiz</button>
+    </a>
+
+</div>
+<script src="../jss/create.js"></script>
+
+</body>
+</html>
